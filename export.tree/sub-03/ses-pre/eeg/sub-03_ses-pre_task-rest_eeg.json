@@ -1,0 +1,36 @@
+{
+  "TaskName": "rest",
+  "TaskDescription": "Resting-state EEG with alternating 2m15s eyes-open (OA) and eyes-closed (OF) blocks, repeated twice, recorded in PRE and POS sessions. Participant sits still; no stimuli or responses.",
+  "Instructions": "Sit quietly. Alternate eyes-open (fixate) and eyes-closed blocks of 2m15s, repeated twice. Remain still; no tasks or responses.",
+  "PowerLineFrequency": 60,
+  "SoftwareFilters": {
+    "HighPass": {
+      "TimeConstant_s": 0.31831
+    },
+    "LowPass": {
+      "Cutoff_Hz": 50
+    },
+    "Notch": {
+      "Frequencies_Hz": [
+        60
+      ]
+    }
+  },
+  "Manufacturer": "Brain Products",
+  "ManufacturersModelName": "actiCHamp",
+  "EEGPlacementScheme": "international 10-20",
+  "RecordingType": "continuous",
+  "ECGChannelCount": 0,
+  "EMGChannelCount": 0,
+  "EOGChannelCount": 0,
+  "MISCChannelCount": 0,
+  "TriggerChannelCount": 0,
+  "CapManufacturer": "Brain Products",
+  "CapManufacturersModelName": "actiCAP snap (CACS-32)",
+  "EEGReference": "Fz",
+  "SamplingFrequency": 500.0,
+  "EEGChannelCount": 31,
+  "SoftwareVersions": "DLL_27.18.06.25, DRV_03.04.01.146, CTRL_104.18.06.25, FPGA_67.00.00.00, DSP_105.19.02.27",
+  "DeviceSerialNumber": "22080846",
+  "EEGGround": "Gnd"
+}
